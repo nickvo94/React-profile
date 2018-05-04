@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  /* margin-bottom: 10% */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 100px;
+  filter: invert(100%);
+  float: left;
+
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  background-size: cover;
+}
+
+.App-footer {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  background-size: cover;
+  /* background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  bottom: 0pt;
+  left: 0pt;
+  width: 100% */
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.nav-tabs-honly>li {
+  display: table-cell;
+  width: 1%;
+}
+
+.home {
+  background-image: url('./resource/91.jpg');
+  width:100%; height: 100%;
+  background-size: cover;
+
+}
+
+.about {
+  background-image: url('./resource/112.jpg');
+  width:100%; height: 100%;
+  background-size: cover;
+
+}
+
+.contact {
+  background-image: url('./resource/102.jpg');
+  width:100%; height: 800px;
+  background-size: cover;
+
+}
+
+.GeneralCard {
+  margin: auto;
+  padding: auto;
+  margin-bottom: 30px;
+  opacity: 0.85;
+}
+
+.SideCard {
+  margin: auto;
+  padding: auto;
+  opacity: 0.85;
+}
+
+
+.FullRow {
+  height: 500
+}
+
+.AboutIcon {
+  width:30%; 
+  margin: 15px auto;
+}
+
+.AboutText {
+  width:100%; 
+  margin: 15px auto;
+  opacity: 0.8
+}
+
+#map {
+  height: 100%;
+}
+
+h3, h4 {
+  padding: 20px
+}
+
+.footer{
+  background: linear-gradient(to top, #ccffff 20%,  #ffffff 100% );
+  padding: 2% 0;
+}
+
+.header{
+  background: linear-gradient(to bottom, #337AB7 20%, rgb(92, 154, 185) 100%);
+  padding: 3% 0;
+}
+
+.sideS{
+  width: 32%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.sideL{
+  width: 67%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.title {
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
