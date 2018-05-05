@@ -29,7 +29,7 @@ class Home extends Component {
         
       }
     
-
+      //https://github.com/perseus0832/React-profile/blob/master/src/resource/todolist.PNG?raw=true
     render() {
         return (
         <div className="App home" >
@@ -47,8 +47,9 @@ class Home extends Component {
                 ><div className="title">Simple todolist</div></div>                
                 <a href="https://perseus0832.github.io/React-table-todolist/">                  
                     <CardMedia>                  
-                        <img style={{width:'100%', margin: 'auto', marginBottom: '0px' }} 
-                        src={require('./resource/todolist.PNG')} alt=" " />                   
+                        <img style={{width:'100%', margin: 'auto', marginBottom: '0px' }}
+                        crossOrigin={null} 
+                        src={'https://github.com/perseus0832/React-profile/blob/master/src/resource/todolist.PNG?raw=true'} alt=" " />                   
                     </CardMedia>
                 </a>                                      
                 </Card>                                               
