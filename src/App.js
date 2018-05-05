@@ -32,10 +32,10 @@ class App extends Component {
         <div className="App">
         <Navigator />
           <Switch>
-          <Route exact path="/React-profile/" component={Home} />
-          <Route path="/React-profile/about" component={About} />
+          <Route exact path="#/" component={Home} />
+          <Route path="#/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route render={() => <h1>Page not found</h1>} />
+          {/* <Route render={() => <h1>Page not found</h1>} /> */}
           </Switch>
         </div>
         </BrowserRouter>
