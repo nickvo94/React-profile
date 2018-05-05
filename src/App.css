@@ -47,14 +47,14 @@
 }
 
 .home {
-  background: url('./resource/91.jpg');
+  background: url('resource/91.jpg');
   width:100%; height: 100%;
   background-size: cover;
 
 }
 
 .about {
-  background: url('./resource/112.jpg');
+  background: url('resource/112.jpg');
   width:100%; height: 100%;
   background-size: cover;
 

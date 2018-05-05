@@ -21,11 +21,11 @@ class Navigator extends Component {
             <ul className="nav nav-pills nav-justified nav-tabs-honly" role="tablist" style={{background: '#D6EAF8', fontSize:'140%'}}>
                 <li role="presentation" onClick={() => (this.setState({toggleHome: true, toggleAbout: false, toggleContact: false, toggleDrop: false}))} 
                 className={ this.state.toggleHome ? "active" : ""} >
-                <Link className="nav-link" to="/">Home </Link>
+                <Link className="nav-link" to="/React-profile/">Home </Link>
                 </li>
                 <li role="presentation" onClick={() => (this.setState({toggleHome: false, toggleAbout: true, toggleContact: false, toggleDrop: false}))} 
                 className={ this.state.toggleAbout ? "active" : ""} >
-                <Link className="nav-link" to="/about">About </Link>
+                <Link className="nav-link" to="/React-profile/about">About </Link>
                 </li>
                 {/* <li role="presentation" onClick={() => (this.setState({toggleHome: false, toggleAbout: false, toggleContact: true, toggleDrop: false}))} 
                 className={ this.state.toggleContact ? "active" : ""}>
