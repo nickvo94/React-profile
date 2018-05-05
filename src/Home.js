@@ -49,7 +49,7 @@ class Home extends Component {
                     <CardMedia>                  
                         <img style={{width:'100%', margin: 'auto', marginBottom: '0px' }}
                         crossOrigin={null} 
-                        src={'https://github.com/perseus0832/React-profile/blob/master/src/resource/todolist.PNG?raw=true'} alt=" " />                   
+                        src={'./resource/todolist.PNG'} alt=" " />                   
                     </CardMedia>
                 </a>                                      
                 </Card>                                               
