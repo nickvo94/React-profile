@@ -47,14 +47,14 @@
 }
 
 .home {
-  background-image: url('https://github.com/perseus0832/React-profile/tree/master/src/resource/91.jpg?raw=true') ;
+  background-image: url('./resource/91.jpg');
   width:100%; height: 100%;
   background-size: cover;
 
 }
 
 .about {
-  background-image: url('https://github.com/perseus0832/React-profile/tree/master/src/resource/112.jpg?raw=true');
+  background-image: url('./resource/112.jpg');
   width:100%; height: 100%;
   background-size: cover;
 
