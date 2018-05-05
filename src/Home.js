@@ -49,7 +49,7 @@ class Home extends Component {
                     <CardMedia>                  
                         <img style={{width:'100%', margin: 'auto', marginBottom: '0px' }}
                         crossOrigin={null} 
-                        src={'./resource/todolist.PNG'} alt=" " />                   
+                        src={require('./resource/todolist.PNG')} alt=" " />                   
                     </CardMedia>
                 </a>                                      
                 </Card>                                               
