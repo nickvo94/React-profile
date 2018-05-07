@@ -75,7 +75,7 @@ class Home extends Component {
                 <a href="https://perseus0832.github.io/React-basic-api/">                       
                     <CardMedia>                                            
                         <img style={{ margin: 'auto', marginBottom: '0px' }} 
-                        src={require('./resource/react-basic.png')} alt=" " />                                          
+                        src={require('./resource/react-basic2.PNG')} alt=" " />                                          
                     </CardMedia>
                 </a> 
                     <div className = 'footer'>
