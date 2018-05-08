@@ -43,10 +43,10 @@ class About extends Component {
     renderLine(chipData){
         return(
             <Row>
-                <Col xs={4} style={{margin: 'auto', padding: '10px'}}>
+                <Col xs={3} style={{margin: 'auto', padding: '10px'}}>
                 <div style={{color: 'white', float: 'center', fontSize: 16}}>{chipData.label}</div>
                 </Col>
-                <Col xs={8} style={{margin: 'auto', padding: '10px',  paddingLeft: '8%'}}>
+                <Col xs={9} style={{margin: 'auto', padding: '10px',  paddingLeft: '15%'}}>
                 <LinearProgress style={{float: 'left', height: 8, width:'100%',}} key={chipData.key}
                 mode="determinate" value={chipData.value}/> 
                 </Col>           
