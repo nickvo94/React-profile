@@ -42,10 +42,15 @@ class About extends Component {
 
     renderLine(chipData){
         return(
-            <Row>            
-                <h4 style={{color: 'white', float: 'left'}}>{chipData.label}</h4>
-                <LinearProgress style={{float: 'left', height: 8}} key={chipData.key}
-                mode="determinate" value={chipData.value}/>           
+            <Row>
+                <Col xs={4} style={{margin: 'auto', padding: '10px'}}>
+                <div style={{color: 'white', float: 'center', fontSize: 16}}>{chipData.label}</div>
+                </Col>
+                <Col xs={8} style={{margin: 'auto', padding: '10px',  paddingLeft: '8%'}}>
+                <LinearProgress style={{float: 'left', height: 8, width:'100%',}} key={chipData.key}
+                mode="determinate" value={chipData.value}/> 
+                </Col>           
+                          
             </Row>
             
         );        
@@ -73,7 +78,7 @@ class About extends Component {
             
             </Avatar>                 
             <CardTitle title="Hieu Vo" subtitle="Nick Vo" />
-            <CardText>
+            <CardText style={{fontSize: 16}}>
             I am a student of Metropolia ammattikorkeakoulu at the 3rd year in IT engineering in Smart field
             and will be graduating soon. I’m studying software development, operating systems, especially,
             I am focus in learning and developing my own skills in front end (interested in cross-platform)
@@ -100,7 +105,7 @@ class About extends Component {
         <h3 style={{marginTop: 0, color: 'white', padding: '10px', 
         textDecoration:'underline'}}>Languages:</h3>
             <Row >
-                <Col style={{color: 'white', margin: 'auto', padding: '10px'}}>English
+                <Col style={{color: 'white', margin: 'auto', padding: '10px', fontSize: 16}}>English
                 <br/>
                 <CircularProgress 
                 style={{margin: 'auto'}} 
@@ -110,7 +115,7 @@ class About extends Component {
                 value={90}
                 />
                  </Col>
-                 <Col style={{color: 'white', margin: 'auto', padding: 'auto'}}>Finnish
+                 <Col style={{color: 'white', margin: 'auto', padding: 'auto', fontSize: 16}}>Finnish
                  <br/>
                  <CircularProgress 
                 style={{margin: 'auto'}} 
@@ -122,7 +127,7 @@ class About extends Component {
                  </Col>                
             </Row>
             <Row>
-                 <Col style={{color: 'white', margin: 'auto', padding: '10px'}}>Vietnamese
+                 <Col style={{color: 'white', margin: 'auto', padding: '10px', fontSize: 16}}>Vietnamese
                  <br/>
                  <CircularProgress 
                 style={{margin: 'auto'}} 
@@ -133,7 +138,7 @@ class About extends Component {
                  />
                  </Col>
                 
-                 <Col style={{color: 'white', margin: 'auto', padding: 'auto'}}>French
+                 <Col style={{color: 'white', margin: 'auto', padding: 'auto',fontSize: 16}}>French
                  <br/>
                  <CircularProgress 
                 style={{margin: 'auto'}} 
